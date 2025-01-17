@@ -1,4 +1,3 @@
-#####
 from flask import Flask, render_template, request, jsonify
 import mysql.connector
 from datetime import datetime
@@ -141,4 +140,4 @@ def delete_todo(todo_id):
         conn.close()
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",port=5002,debug=True)
+    app.run(debug=True, host="0.0.0.0")
