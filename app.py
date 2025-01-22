@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import mysql.connector
 from datetime import datetime
-
+###
 app = Flask(__name__)
 
 # MySQL 연결 설정
