@@ -1,4 +1,3 @@
-#####
 from flask import Flask, render_template, request, jsonify
 import mysql.connector
 from datetime import datetime
@@ -7,7 +6,7 @@ app = Flask(__name__)
 
 # MySQL 연결 설정
 db_config = {
-    'host': '10.0.66.31',
+    'host': '54.180.122.8',
     'user': 'sejong',
     'password': '1234',
     'database': 'board_db2'
